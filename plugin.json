@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mousehole",
+  "version": "0.1.0",
+  "description": "以你的身份使用鼠洞论坛：搜帖、读帖、看通知，L3 起还能发帖和回复",
+  "author": { "name": "mousebaoyan", "url": "https://github.com/mousebaoyan" },
+  "homepage": "https://bbs.mousebaoyan.cn",
+  "repository": "https://github.com/mousebaoyan/mousehole-plugin",
+  "license": "MIT",
+  "keywords": ["保研", "论坛", "鼠洞"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "鼠洞",
+        "shortDescription": "四非计算机保研论坛",
+        "longDescription": "以你的身份使用鼠洞论坛：遇到保研的问题先搜群友的讨论，回答附上帖子的链接；L3 起还能替你发帖和回复，发之前先给你看。",
+        "developerName": "鼠群",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://bbs.mousebaoyan.cn",
+        "defaultPrompt": ["在鼠洞搜一下今年的夏令营经验"]
+      }
+    }
+  }
+}

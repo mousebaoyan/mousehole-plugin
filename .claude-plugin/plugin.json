@@ -1,0 +1,11 @@
+{
+  "name": "mousehole",
+  "displayName": "鼠洞",
+  "version": "0.1.0",
+  "description": "以你的身份使用鼠洞论坛：搜帖、读帖、看通知，L3 起还能发帖和回复",
+  "author": { "name": "mousebaoyan", "url": "https://github.com/mousebaoyan" },
+  "homepage": "https://bbs.mousebaoyan.cn",
+  "repository": "https://github.com/mousebaoyan/mousehole-plugin",
+  "license": "MIT",
+  "keywords": ["保研", "论坛", "鼠洞"]
+}
