@@ -1,0 +1,13 @@
+{
+  "name": "mousebaoyan",
+  "description": "鼠群的插件",
+  "owner": { "name": "mousebaoyan", "url": "https://github.com/mousebaoyan" },
+  "plugins": [
+    {
+      "name": "mousehole",
+      "source": "./",
+      "description": "以你的身份使用鼠洞论坛：搜帖、读帖、看通知，L3 起还能发帖和回复",
+      "category": "productivity"
+    }
+  ]
+}
